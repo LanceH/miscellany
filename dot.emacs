@@ -5,6 +5,8 @@
 ;; displays time in the modeline
 (display-time)
 
+;; get rid of ~ backup files
+(setq makeo-backup-files nil)
 
 ;; get rid of that damned beep
 ;; this has different effects on
